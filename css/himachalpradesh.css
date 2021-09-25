@@ -1,0 +1,44 @@
+/* .bg{
+    background-image: url(../images/4.jpg);
+    height:0px auto;
+} */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #ddd;
+}
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+th,td,tr:nth-child(odd){background-color: #f2f2f2}
+
+.color{
+     background: orangered;
+     color:black;
+}
+.humidity{
+    background: blue;
+    color:black;
+}
+.high{
+    background:#ff9226;
+    color:black;
+}
+.low{
+    background:peru;
+    color:black;
+}
+.record{
+    background:rgb(2, 218, 207);
+    color:black;
+}
+.rainy{
+    background: rgb(87, 128, 243);
+    color:black;
+}
+.rainfall{
+    background:rgb(3, 245, 3);
+    color:black;
+}
